@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="css/jquery.formstyler.css">
+	<link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/slyle.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<span class="header__burg">	
+							<img src="img/burg.png">
+					</span>
+					<p class="logo">salefranchise.ru</p>
+				</div>		
+				<div class="header__nav" id="nav">				
+					<a class="nav__link first" href="#">
+						<span class="nav__burg">	
+							<img src="img/burg.png">
+						</span>каталог франшиз
+					</a>
+					<a class="nav__link" href="#">
+						о сервисе
+					</a>
+					<a class="nav__link" href="#">
+						бизнес идеи
+					</a>
+					<a class="nav__link" href="#">
+						базы знаний
+					</a>
+					<a class="nav__link" href="#">
+						топ 100 франшиз
+					</a>					
+				</div>				
+				<div class="header__pic">
+					<a class="nav__pic" href="#">
+						<img class="nav__img1" src="img/2.png">
+					</a>
+					<a class="nav__pic" href="#">
+						<img class="nav__img2" src="img/1.png">
+					</a>
+					<a data-fancybox data-src="#modal" href="javascript:;" class="nav__pic btn btn-primary">Войти</a>
+				</div>
+
+				<a class="header__pic2" href="#">
+					<img class="nav__img3" src="img/22.png">
+				</a>
+			</div>
+		</div>
+	</header>
+	
+	<div class="mobile__list">
+		<a class="nav__link first" href="#">
+			КАТАЛОГ ФРАНШИЗ
+		</a>
+		<a class="nav__link" href="#">
+			О СЕРВИСЕ
+		</a>
+		<a class="nav__link" href="#">
+			БИЗНЕС ИДЕИ
+		</a>
+		<a class="nav__link" href="#">
+			БАЗЫ ЗНАНИЙ
+		</a>
+		<a class="nav__link" href="#">
+			ТОП 100 ФРАНШИЗ
+		</a>
+		<a data-fancybox data-src="#modal" href="javascript:;" class="nav__pic btn btn-primary">Войти</a>
+	</div>
+
+	<!-- Modal -->
+
+	<div style="display: none;" id="modal">
+          <div class="modal__top" >
+          	<p class="modal__top-item active">Войти</p>
+          	<p class="modal__top-item">Регистрация</p>
+          </div>
+          <form action="." class="modal__form">
+          	<input type="text" class="modal__input" placeholder="Ваше Имя">
+			<input type="email" class="modal__input" placeholder="Ваш email">	
+			<input type="password" class="modal__input1 active" placeholder="Пароль">
+			<div class="modal__buttom" href="#">Войти</div>
+			<p>Нажимая на кнопку вы принимаете условия пользовательского соглашения. Ваши данные будут в безопасности.</p>
+          </form>
+          <div class="modal__footer">
+          	<h1>Войти через</h1>
+          	<div class="modal__social">
+          		<div class="modal__item"><img src="img/XMLID2.png" alt="img"></div>
+				<div class="modal__item fb"><img src="img/fb.png" alt="img"></div>
+          	</div>
+          </div>
+          
+    </div>
+
+	<!-- Intro -->
+
+	<section class="intro">
+		<div class="container">
+			<div id="intro__slider">
+				<div class="intro__slider">
+				</div>	
+				<div class="intro__slider">
+				</div>			
+				<div class="intro__slider">
+				</div>			
+				<div class="intro__slider">
+				</div>	
+			</div>
+		</div>
+	</section>	
+	
+	<!-- Fran -->
+
+	<section class="fran">
+		<div class="container">
+			<div class="fran__menu">	
+				<div class="fran__menu1">
+					<div class="fran__circle1">
+						<img src="img/fran1.png" alt="img">
+					</div>
+					<h1>Питания</h1>
+					<p>9 999 999 франшиз<p>
+				</div>		
+				<div class="fran__menu2">
+					<div class="fran__menu3" id="fran__menu3" >
+						<div class="fran__circle2">
+							<img src="img/fran3.png" alt="img"></div>
+						<div>
+						<h1>Кофе с собой</h1>
+						<p>9 999 999 франшиз<p>
+						</div>
+					</div>
+					<div class="fran__menu3">
+						<div class="fran__circle2">
+							<img src="img/fran4.png" alt="img">
+						</div>
+						<div>
+						<h2 class="fran__h1" >Инстаграм- магазин одежды</h2>
+						<p>9 999 999 франшиз<p>
+						</div>
+					</div>
+				</div>		
+				<div class="fran__menu1">
+					<div class="fran__circle1" >
+						<img src="img/fran2.png" alt="img">
+					</div>
+					<h1>Косметическое осветление зубов</h1>
+					<p>Легкий старт в индустрии красоты.<p>
+				</div>		
+				<div class="fran__menu2">
+					<div class="fran__menu3" id="fran__menu3">
+						<div class="fran__circle2">
+							<img src="img/fran5.png" alt="img">
+						</div>
+						<div>
+						<h1>Агентство недвижимости</h1>
+						<p>9 999 999 франшиз<p>
+						</div>
+					</div>
+					<div class="fran__menu3">
+						<div class="fran__circle2">
+							<img src="img/fran6.png" alt="img">
+						</div>
+						<div>
+						<h1>Барбершопы</h1>
+						<p>9 999 999 франшиз<p>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="fran__menu-mobile">
+				<div class="mobile__item">
+					<img src="img/m1.png" alt="img">
+					<p>Весь каталог</p>
+				</div>
+				<div class="mobile__item">
+					<img src="img/m2.png" alt="img">
+					<p>Питание</p>
+				</div>
+				<div class="mobile__item">
+					<img src="img/m3.png" alt="img">
+					<p>Детская одежда</p>
+				</div>
+				<div class="mobile__item">
+					<img src="img/m4.png" alt="img">
+					<p>Фитнес клубы</p>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+	<!-- Buttoms -->
+
+	<section class="buttoms">
+		<div class="container">
+			<div class="buttoms__inner">
+				<div class="buttoms__item active">+добавить франшизу</div>
+				<div class="buttoms__item mobile">как купить франшизу</div>
+				<div class="buttoms__item mobile">как создать франшизу</div>
+				<div class="buttoms__item">все франшизы</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Choose -->
+
+	<section class="choose">
+		<div class="container">
+			<div class="choose__inner">
+				<h1>Подобрать франшизу</h1>
+				<div class="choose-inner__line">
+					<div class="choose-inner__line-text">
+						Сумма вложений
+					</div>
+					<div class="choose-inner__line-count">
+						<p>
+		  					<label for="amount"></label>
+		  					<div class="amounts">
+			  					<input type="text" id="amount" readonly>
+			  					<input type="text" id="amount2" readonly>
+		  					</div>
+						</p>
+						<div id="slider-range"></div>
+					</div>
+					<div class="choose-inner__line-menu">
+						<select class="choose__list" name="theme">
+		 				 	<option value="sfer">Сфера бизнеса</option>
+		  					<option value="sfer1">Автоуслуги</option>
+		  					<option value="sfer2">Детские франшизы</option>
+		  					<option value="sfer3">Интернет, ИТ и реклама</option>
+						</select>	
+					</div>
+					<div class="choose-inner__line-menu">
+						<select class="choose__list" name="theme">
+		 				 	<option value="categ">Выберете категорию</option>
+		  					<option value="categ1">Категория 1</option>
+		  					<option value="categ2">Категория 2</option>
+		  					<option value="categ3">Категория 3</option>
+						</select>	
+					</div>
+					<div class="choose-inner__line-get">
+					Подобрать	
+					</div>	
+				</div>
+				<div class="choose-inner__line-buttom">
+					<div class="choose-inner__line-buttom1">
+						<div class="choose-inner__line-buttom2">
+							<div>
+								<p>До</p>
+								<article>
+									<h1>150</h1>
+									<p>тыс.<br>руб.</p>
+								</article>
+							</div>
+						</div>
+						<div class="choose-inner__line-buttom2">
+							<div>
+								<p>До</p>
+								<article>
+									<h1>800</h1>
+									<p>тыс.<br>руб.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div class="choose-inner__line-buttom3">
+						<p>франшизы для начинающих предпринимателей</p>
+						<img src="img/image11.png" alt="img">
+					</div>
+					<div class="choose-inner__line-buttom1">
+						<div class="choose-inner__line-buttom2">
+							<div>
+								<p>До</p>
+								<article>
+									<h1>5</h1>
+									<p>тыс.<br>руб.</p>
+								</article>
+							</div>
+						</div>
+						<div class="choose-inner__line-buttom2">
+							<div>
+								<p>До</p>
+								<article>
+									<h1>99</h1>
+									<p>тыс.<br>руб.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div class="choose-inner__line-buttom3 right">
+						<p>франшизы для<br> студентов</p>
+						<img src="img/image12.png" alt="img" class="choose__img" >
+					</div>
+				</div>
+				<article class="choose__inner__link">
+					<a href="#">другие параметры подбора франшизы
+					</a>
+				</article>
+			</div>	
+		</div>
+	</section>
+	
+	<!-- Topfr -->
+
+	<div class="container">
+		<div class="topfr__head">
+			<h1>Топ франшиз</h1>
+		</div>
+	</div>
+
+	<section class="topfr">
+		<div class="container">
+			<div class="topfr__block">				
+				<div class="topfr__block1">				
+					<div class="topfr-block1__item1">					
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img1">
+								<div>ТОП 100</div>
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Эластико - детская футбольная школа</p>
+						</div>
+					</div>					
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img2">
+								<div>ТОП 500</div>
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>IZIway инстаграм - магазин одежды</p>
+						</div>
+					</div>						
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img3">
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Франшиза квиза «Игра Разума». Инвестиции от 60 т. ₽</p>
+						</div>
+					</div>			
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img4">
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Франшиза PRO-TORGI - покупка, продажа илиаренда имущества...</p>
+						</div>
+					</div>
+				</div>		
+				<div class="topfr__block2">						
+					<div class="topfr-block2__item1">
+						<div class="topfr-block2__item">
+							<div class="topfr-block2__item-img">
+							</div>
+							<div class="topfr-block2__text">
+								<h1>Эластико - детская футбольная школа</h1>
+								<p>Инвестиции:&nbsp <b>8 150 000 - 99 300 000 Р</b> <br>Паушальный взнос:&nbsp <b>9 280 000 ₽</b> <br>Окупаемость:&nbsp <b>от 99 до 99 месяцев</b> <br>Доход в месяц:&nbsp <b>9 280 000 ₽</b></p>
+							</div>
+						</div>
+						<img src="img/image13.png" alt="img">	
+					</div>			
+					<div class="topfr-block2__item1">
+						<div class="topfr-block2__item">
+							<div class="topfr-block2__item-img">
+							</div>
+							<div class="topfr-block2__text">
+								<h1>Эластико - детская футбольная школа</h1>
+								<p>Инвестиции:&nbsp <b>8 150 000 - 99 300 000 Р</b> <br>Паушальный взнос:&nbsp <b>9 280 000 ₽</b> <br>Окупаемость:&nbsp <b>от 99 до 99 месяцев</b> <br>Доход в месяц:&nbsp <b>9 280 000 ₽</b></p>
+							</div>	
+						</div>
+						<img src="img/image13.png" alt="img">
+					</div>				
+				</div>		
+				<div class="topfr__block1">					
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img5">
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Эластико - детская футбольная школа</p>
+						</div>
+					</div>				
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img6">
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Франшиза квиза «Игра Разума». Инвестиции от 60 т. ₽</p>
+						</div>
+					</div>				
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img2">
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Франшиза квиза «Игра Разума». Инвестиции от 60 т. ₽</p>
+						</div>
+					</div>		
+					<div class="topfr-block1__item1">
+						<div class="topfr-block1__item">
+							<div class="topfr-block1__item-img7">
+							</div>
+							<img src="img/image13.png" alt="img">
+							<p>Франшиза PRO-TORGI - покупка, продажа илиаренда имущества...</p>
+						</div>							
+					</div>	
+				</div>
+				<div class="topfr__block2">						
+					<div class="topfr-block2__item1">
+						<div class="topfr-block2__item">
+							<div class="topfr-block2__item-img">
+							</div>
+							<div class="topfr-block2__text">
+								<h1>Эластико - детская футбольная школа</h1>
+								<p>Инвестиции:&nbsp <b>8 150 000 - 99 300 000 Р</b> <br>Паушальный взнос:&nbsp <b>9 280 000 ₽</b> <br>Окупаемость:&nbsp <b>от 99 до 99 месяцев</b> <br>Доход в месяц:&nbsp <b>9 280 000 ₽</b></p>
+							</div>
+						</div>
+						<img src="img/image13.png" alt="img">	
+					</div>			
+					<div class="topfr-block2__item1">
+						<div class="topfr-block2__item">
+							<div class="topfr-block2__item-img">
+							</div>
+							<div class="topfr-block2__text">
+								<h1>Эластико - детская футбольная школа</h1>
+								<p>Инвестиции:&nbsp <b>8 150 000 - 99 300 000 Р</b> <br>Паушальный взнос:&nbsp <b>9 280 000 ₽</b> <br>Окупаемость:&nbsp <b>от 99 до 99 месяцев</b> <br>Доход в месяц:&nbsp <b>9 280 000 ₽</b></p>
+							</div>	
+						</div>
+						<img src="img/image13.png" alt="img">
+					</div>				
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<!-- Allfr -->
+
+	<div class="allfr">
+		<h1>Все франшизы</h1>
+	</div>
+
+	<!-- Form -->
+
+	<section class="form">
+		<div class="container">
+			<div class="form__inner">
+				<h1>Бесплатно подберем франшизу с учетом ваших пожеланий</h1>
+				<div class="form-inner__block">
+					<form action="." method="post" class="validates">
+						<div class="form-inner__block-item1">
+							<input type="text" name="name" placeholder="Ваше имя" class="name" />
+						</div>
+						<div class="form-inner__block-item1">
+							<input type="tel" name="number" placeholder="Номер телефона" class="number" />
+						</div>
+						<div class="form-inner__block-item1">
+							<input type="email" name="name" placeholder="Ваш e-mail" class="name" />
+						</div>
+						<div class="form-inner__block-item1">
+							<input type="text" name="number" placeholder="Ваш город" class="number" />
+						</div>
+						<div class="form-inner__block-item2">
+							<input type="submit" value="Отправить запрос" />
+						</div>
+					</form>			
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- News -->
+
+	<section class="news">
+		<div class="container">
+			<div class="news__text">
+				<p>Новости фарншиз</p>
+				<img class="news__text-img" src="img/Arrow.png">
+			</div>
+			<div class="news__block">
+				<div class="news__item">
+					<div class="news__item-img"></div>
+					<p>Возмещение НДС - что это, из бюджета, для налогоплательщика, программа</p>
+				</div>
+				<div class="news__item">
+					<div class="news__item-img"></div>
+					<p>Официальное открытие первого офиса Global Finance в Москве</p>
+				</div>
+				<div class="news__item">
+					<div class="news__item-img"></div>
+					<p>Официальное открытие первого офиса Global Finance в Москве</p>
+				</div>
+				<div class="news__item">
+					<div class="news__item-img"></div>
+					<p>Что такое франшиза простыми словами. Пример франшизы</p>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	<!-- Seo -->
+
+	<section class="Seo">
+		<div class="container">
+			<p class="seo__h">Немного SEO текста</p>
+			<p class="seo__text">Не следует, однако, забывать, что выбранный нами инновационный путь не оставляет шанса для кластеризации усилий. Для современного мира начало повседневной работы по формированию позиции позволяет оценить значение вывода текущих активов! Кстати, ключевые особенности структуры проекта формируют глобальную экономическую сеть и при этом - указаны как претенденты на роль ключевых факторов. Лишь интерактивные прототипы могут быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Идейные соображения высшего порядка, а также высокотехнологичная концепция общественного уклада, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для существующих финансовых и административных условий. Принимая во внимание показатели успешности, укрепление и развитие внутренней структуры предоставляет широкие возможности для инновационных методов управления процессами. <br><br>
+			Не следует, однако, забывать, что выбранный нами инновационный путь не оставляет шанса для кластеризации усилий. Для современного мира начало повседневной работы по формированию позиции позволяет оценить значение вывода текущих активов! Кстати, ключевые особенности структуры проекта формируют глобальную экономическую сеть и при этом - указаны как претенденты на роль ключевых факторов. Лишь интерактивные прототипы могут быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Идейные соображения высшего порядка, а также высокотехнологичная концепция общественного уклада, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для существующих финансовых и административных условий. Принимая во внимание показатели успешности, укрепление и развитие внутренней структуры предоставляет широкие возможности для инновационных методов управления процессами.</p>
+			<span class="seo__line"></span>		
+		</div>
+	</section>
+
+	<!-- Footer -->
+
+	<footer>
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__block1">
+					<div class="footer-block1__item">
+						<div class="footer-block1__item1">
+							<a href="#">Каталог франшиз</a><br>	
+							<a href="#">Помощь в подборе франшизы</a><br>
+							<a href="#">Рейтинг франшиз</a><br>
+							<a href="#">+Добавить франшизу</a>
+						</div>
+						<div class="footer-block1__item1">
+							<a href="#">О проекте</a><br>	
+							<a href="#">Контакты</a><br>
+							<a href="#">Размещение рекламы</a><br>
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="footer-block1__buttom">
+							<h1>Упаковать франшизу</h1>
+						</div>
+					</div>
+					<p class="footer__p1">© 2016 – 2019 ООО «Франшизы». Все права защищены. Полное или частичное копирование материалов сайта без согласования с редакцией запрещено.</p>
+				</div>
+				<div class="footer__block2">
+					<h2>Следите за нами в соцсетях</h2>
+					<div class="footer-block2__circle">
+						<a href="#"><img src="img/Frame1.png" alt="img"></a>
+						<a href="#"><img src="img/Frame2.png" alt="img"></a>
+						<a href="#"><img src="img/Frame3.png" alt="img"></a>
+						<a href="#"><img src="img/Vector4.png" alt="img"></a>
+					</div>
+					<h1>8 800 999 99 99</h1>
+					<p class="footer__p2">© 2016 – 2019 ООО «Франшизы». Все права защищены. Полное или частичное копирование материалов сайта без согласования с редакцией запрещено.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
+	<script src="js/jquery.formstyler.min.js" ></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

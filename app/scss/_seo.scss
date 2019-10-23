@@ -1,0 +1,54 @@
+
+/* Seo */
+
+.seo__h {
+	margin-top: 58px;
+	margin-bottom: 25px;
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 37px;
+}
+
+.seo__text {
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 52px;
+	font-weight: 500;
+}
+
+.seo__line {
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #C4C4C4;
+	margin-bottom: 30px;
+}
+
+.footer__p2 {
+	display: none;
+}
+
+@media (max-width: 760px) {
+	.seo__h {
+		text-transform: uppercase;
+		font-size: 18px;
+		margin-left: 20px;
+	}
+
+	.seo__text {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.footer__p1 {
+		display: none;
+	}
+	.footer__p2 {
+		display:block;
+		color: #C4C4C4;
+		font-size: 10px;
+		width: 100%;
+		line-height: 13px;
+		margin-top: 32px;
+		margin-bottom: 82px;
+	}
+
+}

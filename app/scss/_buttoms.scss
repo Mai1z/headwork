@@ -1,0 +1,77 @@
+/* Buttoms */
+
+.buttoms {
+	height: 42px;
+	margin-top: 49px;
+}
+
+.buttoms__inner {
+	display: flex;
+	cursor: pointer;
+	margin: 0 -15px;
+}
+
+.buttoms__item {
+	width: 25%;
+	height: 42px;
+	background-color: $bg-col-grey;
+	border-radius: 5px;
+	transition: box-shadow .2s linear;
+	text-align: center;
+	color: #4B4644;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 14px;
+	padding-bottom: 16px;
+	margin: 0 15px;
+}
+
+.buttoms__item.active {
+	background-color: $col-orange;
+	color: #fff;
+	transition: background-color .2s linear;
+}
+
+.buttoms__item:hover {
+	box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.35);
+}
+
+.buttoms__item.active:hover {
+	background-color: $font-color;
+}
+
+@media (max-width: 860px) {
+	.buttoms__inner {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.buttoms__item.mobile {
+		display: none;
+	}
+	.buttoms__item {
+		width: 46%;
+	}
+	.buttoms {
+		margin-top: 20px;
+	}	
+}
+
+@media (max-width: 420px) {
+	.buttoms__item {
+		font-size: 9px;
+		height: 32px;
+		padding-top: 9px;
+		margin-right: 7px;
+		margin-left: 7px;
+	}
+	.buttoms {
+		margin-right: 10px;
+		margin-left: 10px;
+	}	
+}
+
+@media (max-width: 360px) {
+	.buttoms__item {
+		font-size: 7px;
+	}	
+}

@@ -1,0 +1,48 @@
+$font-color: #343953;
+$col-orange: #FF4C17;
+$col-grey: #C4C4C4;
+$bg-col-grey: #D6D8E3;
+
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.025em;
+	background: #F7F7F7;
+	color: $font-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/* Container */
+
+.container {
+	max-width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+@import 'header';
+@import 'modal';
+@import 'intro';
+@import 'fran';
+@import 'buttoms';
+@import 'choose';
+@import 'topfr';
+@import 'form';
+@import 'news';
+@import 'seo';
+@import 'footer';
+
+
+
