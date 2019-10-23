@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 312px;
   border-radius: 5px;
-  background: url(/img/Frame.png);
+  background: url(../img/Frame.png);
   -webkit-background-size: cover;
   background-size: cover;
   outline: 0;
@@ -1111,7 +1111,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/image9.png) center no-repeat;
+  background: url(../img/image9.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1134,7 +1134,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/Mask.png) center no-repeat;
+  background: url(../img/Mask.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1157,7 +1157,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/image91.png) center no-repeat;
+  background: url(../img/image91.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1165,7 +1165,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/image92.png) center no-repeat;
+  background: url(../img/image92.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1173,7 +1173,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/image95.png) center no-repeat;
+  background: url(../img/image95.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1181,7 +1181,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/image96.png) center no-repeat;
+  background: url(../img/image96.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1189,7 +1189,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: 5px;
   height: 193px;
-  background: url(/img/image94.png) center no-repeat;
+  background: url(../img/image94.png) center no-repeat;
   background-size: cover;
 }
 
@@ -1231,7 +1231,7 @@ h1, h2, h3, h4, h5, h6 {
 .topfr-block2__item-img {
   width: 47.5%;
   border-radius: 5px;
-  background: url(/img/image918.png) center no-repeat;
+  background: url(../img/image918.png) center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1406,7 +1406,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 144px;
   border-radius: 5px;
-  background: url("/img/image10.png") center no-repeat;
+  background: url("../img/image10.png") center no-repeat;
   transition: opacity .2s linear;
 }
 
