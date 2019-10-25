@@ -58,8 +58,30 @@
 
 @media (max-width: 760px) {
 	.news__block {
-		display: none;
+		width: 100%;
+		overflow: auto;
+		padding: 0px 35px;
+		-ms-overflow-style: none;
+		scrollbar-width: none; 
 	}
+	.news__block::-webkit-scrollbar {
+		width: 0;
+    	height: 0;
+	}
+
+	.news__item {
+		min-width: 210px;
+		margin-right: 15px;
+		margin-left: 0px;
+			p {
+				font-size: 10px;
+				font-weight: 500;
+			}
+	}
+	.news__item-img {
+		height: 112px;
+	}
+
 	.news__text p {
 		text-transform: uppercase;
 		margin-left: 25px;
